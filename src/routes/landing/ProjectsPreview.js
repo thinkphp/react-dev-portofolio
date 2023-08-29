@@ -9,9 +9,10 @@ const ProjectsPreview = () => {
         <section key={index} className="project">
           <img
             src={project.img}
-            alt={project.name}
+            alt=""
+            aria-hidden="true"
             className="project-img"
-          ></img>
+          />
           <section className="project-description">
             <p className="white-text p-tag">{project.description}</p>
             <section className="project-meta-stack ">
@@ -21,15 +22,16 @@ const ProjectsPreview = () => {
             </section>
             <section className="project-links">
               <a href={project.src} target="_blank" rel="noreferrer">
-                <img src={ExternalLink} alt="External link icon"></img>
+                <img src={ExternalLink} alt="Link to project" />
               </a>
               <a href={project.source} target="_blank" rel="noreferrer">
-                <img src={GithubRepo} alt="Github icon"></img>
+                <img src={GithubRepo} alt="Link to Github" />
               </a>
             </section>
           </section>
         </section>
-      ))}
+      ))
+      }
     </section>
   );
 };

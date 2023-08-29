@@ -4,9 +4,12 @@ import PortfolioPreview from "./PortfolioPreview";
 import ContactPreview from "./ContactPreview";
 import { Footer } from "../../components";
 import ScrollButton from "../../components/ScrollButton";
+import { useEffect } from "react";
 
 const Mainpage = () => {
-  document.title = "Sophia Martinez | Personal Portfolio";
+  useEffect(() => {
+    document.title = "Sophia Martinez | Personal Portfolio";
+  })
   return (
     <article className="main-page">
       <HeaderPreview />

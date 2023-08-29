@@ -1,5 +1,5 @@
-import SendEmail from "../../components/SendEmail";
 import { Footer } from "../../components";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   document.title = "Contact | Sophia Martinez";
@@ -12,7 +12,7 @@ const Contact = () => {
         and interesting projects! Feel free to contact me if you have any other
         requests or questions regarding web development.
       </p>
-      <SendEmail />
+      <ContactForm />
       <Footer />
     </article>
   );

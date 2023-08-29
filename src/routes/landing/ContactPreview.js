@@ -1,4 +1,4 @@
-import SendEmail from "../../components/SendEmail";
+import ContactForm from "../contact/ContactForm";
 
 const ContactPreview = () => {
   return (
@@ -9,7 +9,7 @@ const ContactPreview = () => {
         and interesting projects! Feel free to contact me if you have any other
         requests or questions regarding web development.
       </p>
-      <SendEmail />
+      <ContactForm />
     </article>
   );
 };

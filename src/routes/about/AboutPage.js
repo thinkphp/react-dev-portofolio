@@ -7,9 +7,12 @@ import WorkExperience from "./WorkExperience.js";
 import DownloadResume from "./DownloadResume.js";
 import AboutMe from "./AboutMe.js";
 import ScrollButton from "../../helpers/ScrollToTop";
+import { useEffect } from "react";
 
 const About = () => {
-  document.title = "About | Sophia Martinez";
+  useEffect(() => {
+    document.title = "About | Sophia Martinez";
+  })
   return (
     <article className="about-main">
       <AboutMe />

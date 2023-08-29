@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import ResetLocation from '../../helpers/ResetLocation'
+import ScrollToTop from "../../helpers/ScrollToTop";
 
 const activeNavLink = ({ isActive }) =>
   "gray-text nav-link" + (isActive ? " active" : "");
@@ -13,7 +13,7 @@ const NavigationMenu = (props) => {
           "gray-text nav-link" + (isActive ? " main-active" : "")
         }
         onClick={() => {
-          ResetLocation();
+          ScrollToTop();
           props.closeMenu();
         }}
       >
@@ -22,7 +22,7 @@ const NavigationMenu = (props) => {
       <NavLink
         to="/about"
         onClick={() => {
-          ResetLocation();
+          ScrollToTop();
           props.closeMenu();
         }}
         className={activeNavLink}
@@ -33,7 +33,7 @@ const NavigationMenu = (props) => {
         to="/portfolio"
         className={activeNavLink}
         onClick={() => {
-          ResetLocation();
+          ScrollToTop();
           props.closeMenu();
         }}
       >
@@ -43,7 +43,7 @@ const NavigationMenu = (props) => {
         to="/contact"
         className={activeNavLink}
         onClick={() => {
-          ResetLocation();
+          ScrollToTop();
           props.closeMenu();
         }}
       >

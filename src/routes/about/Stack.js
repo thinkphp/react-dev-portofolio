@@ -6,7 +6,7 @@ const Stack = () => {
       <h3 className="title-font white-text ">
         Here are a few tools & technologies I’ve been working with:
       </h3>
-      <ol className="stack-section ">
+      <ol className="stack-section">
         <li>HTML5</li>
         <li>CSS3</li>
         <li>Tailwind</li>
@@ -22,4 +22,5 @@ const Stack = () => {
     </React.Fragment>
   );
 };
+
 export default Stack;

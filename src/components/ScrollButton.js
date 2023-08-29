@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Button from "./Button";
 import ScrollToTop from "../helpers/ScrollToTop";
+
 const ScrollButton = () => {
   const [visible, setVisible] = useState(false);
 

@@ -1,6 +1,6 @@
 import ExternalLink from "../../assets/images/project-external.png";
 import GithubRepo from "../../assets/images/project-source.png";
-import { projectsData } from "../../data/ProjectsData";
+import { projectsData } from "../../data/projectsData";
 
 const ProjectsPreview = () => {
   return (

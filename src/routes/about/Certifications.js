@@ -1,4 +1,4 @@
-import { certificationData } from "../../data/ExperienceData";
+import { certificationData } from "../../data/experienceData";
 const Certifications = () => {
   return (
     <section className="certification">

@@ -1,6 +1,5 @@
 import Whiteham from "../../assets/images/hamburger-white.png";
 import WhiteXham from "../../assets/images/x-ham-white.png";
-import NavigationEmail from "./NavigationEmail";
 import NavigationHamburger from "./NavigationHamburger";
 import NavigationLogo from "./NavigationLogo";
 import NavigationMenu from "./NavigationMenu";
@@ -25,7 +24,6 @@ const Navigation = () => {
         <NavigationLogo closeMenu={closeMenu} />
         <NavigationMenu closeMenu={closeMenu} />
         <NavigationSocials />
-        <NavigationEmail />
       </section>
     </article>
   );

@@ -1,19 +1,12 @@
 import ProjectsPreview from "./ProjectsPreview";
-import { Link } from "react-router-dom";
 
 const PortfolioPreview = () => {
-  function ResetLocation() {
-    window.scrollTo(0, 0);
-  }
   return (
     <article className="portfolio">
       <section className="portfolio-text">
-        <h2 className="title-font pink-text h2-tag">My Portfolio</h2>
+        <h2 className="title-font pink-text h2-tag">Portfolio</h2>
         <p className="white-text p-tag">
-          I have spent a lot of time on different projects. I love doing
-          everything from scratch. Here are some of my favorite ones which sum
-          up my knowledge. I have done many small projects from different
-          courses and challenges to learn the basics. You can check them on my{" "}
+          I've invested substantial time in a variety of projects, thoroughly enjoying the process of building things from the ground up. Here are a few of my cherished endeavors that encapsulate my expertise. I've tackled numerous minor projects from diverse courses and challenges, all aimed at mastering the fundamentals. Feel free to explore these on my {" "}
           <span>
             <a
               href="https://github.com/catherineisonline?tab=repositories"
@@ -27,15 +20,6 @@ const PortfolioPreview = () => {
         </p>
       </section>
       <ProjectsPreview />
-      <section>
-        <Link
-          onClick={ResetLocation}
-          className="more-projects-btn pink-text"
-          to="/portfolio"
-        >
-          More projects
-        </Link>
-      </section>
     </article>
   );
 };

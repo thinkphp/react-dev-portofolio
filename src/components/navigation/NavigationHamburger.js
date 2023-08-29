@@ -10,7 +10,7 @@ const NavigationHamburger = React.forwardRef((props, ref) => (
       onClick={() => {
         props.ToggleMenu();
       }}
-    ></img>
+    />
   </section>
 ));
 export default NavigationHamburger;

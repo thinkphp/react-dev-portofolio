@@ -1,11 +1,11 @@
 import ExternalLink from "../../assets/images/project-external.png";
 import GithubRepo from "../../assets/images/project-source.png";
-import { ProjectsPreviewData } from "../../data/ProjectsData";
+import { projectsData } from "../../data/ProjectsData";
 
 const ProjectsPreview = () => {
   return (
     <section className=" portfolio-grid">
-      {ProjectsPreviewData.map((project, index) => (
+      {projectsData.map((project, index) => (
         <section key={index} className="project">
           <img
             src={project.img}

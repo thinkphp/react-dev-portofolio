@@ -1,11 +1,11 @@
 import ExternalLink from "../../assets/images/project-external.png";
 import GithubRepo from "../../assets/images/project-source.png";
-import { ProjectsData } from "../../data/ProjectsData";
+import { projectsData } from "../../data/ProjectsData";
 
 const Projects = () => {
   return (
     <section className="portfolio-grid">
-      {ProjectsData.map((project) => (
+      {projectsData.map((project) => (
         <section key={project.id} className="project">
           <img
             src={project.img}

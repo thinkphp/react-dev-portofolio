@@ -3,16 +3,9 @@ const AboutMe = () => {
     <section>
       <h2 className="title-font pink-text h2-tag">About Me</h2>
       <p className="white-text p-tag">
-        I am a front-end web developer with 9 years of working experience in
-        fields like sales, customer support, social media, and management. I
-        combine my management expertise with technical skills and fully commit
-        to consistency, meeting deadlines, and utilizing all available resources
-        to achieve results. I enjoy creating beautiful, accessible, and
-        responsive websites using HTML, CSS, Tailwind, Sass, SCSS, Vanilla
-        JavaScript, and React. Effective use of time, problem-solving, and
-        communication skills help me show a positive attitude in complex
-        situations, and my desire to learn quickly adapts me to changing
-        situations.
+        Transitioning from a rich 9-year background in marketing, I'm embarking on an exciting journey as a Junior Web Developer. My diverse experience has armed me with a unique perspective that blends creativity, strategic thinking, and a deep understanding of user behavior.
+        As a passionate newcomer to the world of web development, I've harnessed my drive and determination to master the latest technologies. Through dedicated learning and hands-on projects, I've become adept in crafting seamless and engaging web experiences. My toolkit includes HTML, CSS, JavaScript, and I'm well-versed in utilizing frameworks like React to bring dynamic functionalities to life.
+        What sets me apart is not only my technical aptitude but also my marketing-honed intuition. I have an innate grasp of how design and functionality converge to create meaningful user journeys. By leveraging my marketing background, I'm able to create websites that not only look stunning but also strategically drive engagement and conversions.
       </p>
     </section>
   );

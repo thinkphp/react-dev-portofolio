@@ -6,7 +6,7 @@ const Footer = () => {
         target="_blank"
         rel="noreferrer"
       >
-        Designed & Built by Catherine &copy;2022
+        Designed & Built by Sophia &copy;2023
       </a>
     </article>
   );

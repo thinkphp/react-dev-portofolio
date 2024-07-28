@@ -8,10 +8,12 @@ import DownloadResume from "./DownloadResume.js";
 import AboutMe from "./AboutMe.js";
 import ScrollButton from "../../helpers/ScrollToTop";
 import { useEffect } from "react";
+import "./About.sass";
 
 const About = () => {
   useEffect(() => {
     document.title = "About | Sophia Martinez";
+    window.scrollTo(0, 0);
   })
   return (
     <article className="about-main">

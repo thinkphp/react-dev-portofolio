@@ -11,7 +11,7 @@ const PortfolioDescription = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Github
+            GitHub
           </a>
         </span>
       </p>

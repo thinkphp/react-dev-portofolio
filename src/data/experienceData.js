@@ -4,7 +4,7 @@ const experienceData = [
     jobtitle: "Marketing Campaign Manager",
     companyname: "InnovateX Solutions",
     worktype: "Full-time",
-    duration: "Jan 2021 - Oct 2021",
+    duration: "Jan 2020 - Oct 2023",
     location: "Tbilisi, Georgia",
     responsibility: [
       `Developed and executed innovative marketing campaigns that resulted in a 20% increase in brand visibility and a 15% rise in customer engagement.`,
@@ -19,7 +19,7 @@ const experienceData = [
     jobtitle: "Social Media Strategist",
     companyname: "NexaReach Marketing Agency",
     worktype: "Full-time",
-    duration: "Sep 2020 - Jan 2021",
+    duration: "Sep 2019 - Jan 2020",
     location: "Tbilisi, Georgia",
     responsibility: [
       `Devised and executed dynamic social media strategies across platforms, resulting in a 25% growth in follower base and a 30% boost in user engagement.`,

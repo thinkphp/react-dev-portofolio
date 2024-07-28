@@ -14,7 +14,7 @@ const Stack = () => {
         <li>JavaScript ES6+</li>
         <li>React.js</li>
         <li>RESTful API</li>
-        <li>Github</li>
+        <li>GitHub</li>
         <li>Git</li>
         <li>Figma</li>
         <li>Visual Studio Code</li>

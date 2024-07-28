@@ -14,7 +14,7 @@ const PortfolioPreview = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              GitHub
             </a>
           </span>
         </p>

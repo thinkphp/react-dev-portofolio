@@ -3,7 +3,7 @@ import Stack from "../about/Stack.js";
 
 const AboutPreview = () => {
   return (
-    <article className="about">
+    <article className="landing__about">
       <AboutMe />
       <Stack />
     </article>

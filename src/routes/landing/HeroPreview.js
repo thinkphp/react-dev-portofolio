@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-const HeaderPreview = () => {
+const HeroPreview = () => {
   return (
-    <article className="header">
-      <h1 className="header-font white-text h1-tag">
+    <article className="landing__hero">
+      <h1 className="hero-font white-text h1-tag">
         Hi, I'm <br></br>
         <em className="pink-text">Sophia Martinez</em>
         <br></br>web developer
@@ -16,4 +16,4 @@ const HeaderPreview = () => {
   );
 };
 
-export default HeaderPreview;
+export default HeroPreview;

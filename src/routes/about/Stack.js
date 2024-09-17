@@ -1,25 +1,30 @@
-import React from "react";
+const stack = [
+  "HTML5",
+  "CSS3",
+  "Tailwind",
+  "SCSS/SASS",
+  "JavaScript ES6+",
+  "React.js",
+  "RESTful API",
+  "GitHub",
+  "Git",
+  "Figma",
+  "Visual Studio Code"
+];
+
 
 const Stack = () => {
   return (
-    <React.Fragment>
+    <section>
       <h3 className="title-font white-text ">
         Here are a few tools & technologies I’ve been working with:
       </h3>
-      <ol className="stack-section">
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>Tailwind</li>
-        <li>SCSS/SASS</li>
-        <li>JavaScript ES6+</li>
-        <li>React.js</li>
-        <li>RESTful API</li>
-        <li>GitHub</li>
-        <li>Git</li>
-        <li>Figma</li>
-        <li>Visual Studio Code</li>
+      <ol className="stack-list">
+        {stack.map((item, index) =>
+          (<li key={index}>{item}</li>)
+        )}
       </ol>
-    </React.Fragment>
+    </section>
   );
 };
 

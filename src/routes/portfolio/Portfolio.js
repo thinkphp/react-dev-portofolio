@@ -10,12 +10,12 @@ const Portfolio = () => {
     window.scrollTo(0, 0);
   })
   return (
-    <article className="portfolio-main">
+    <main className="portfolio">
       <PortfolioDescription />
       <Projects />
       <ScrollButton />
       <Footer />
-    </article>
+    </main>
   );
 };
 

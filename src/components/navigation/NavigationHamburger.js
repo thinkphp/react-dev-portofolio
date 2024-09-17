@@ -1,16 +1,14 @@
 import Whiteham from "../../assets/images/hamburger-white.png";
 import React from "react";
 const NavigationHamburger = React.forwardRef((props, ref) => (
-  <section className="ham-section">
-    <img
-      className="ham-menu"
-      src={Whiteham}
-      alt="hamburger menu"
-      ref={ref}
-      onClick={() => {
-        props.ToggleMenu();
-      }}
-    />
-  </section>
+  <img
+    className="menu-icon"
+    src={Whiteham}
+    alt="Hamburger menu"
+    ref={ref}
+    onClick={() => {
+      props.ToggleMenu();
+    }}
+  />
 ));
 export default NavigationHamburger;

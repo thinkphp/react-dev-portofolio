@@ -2,7 +2,7 @@ import { certificationData } from "../../data/experienceData";
 
 const Certifications = () => {
   return (
-    <section className="certification">
+    <section className="about__certifications">
       <h2 className="title-font  pink-text h2-tag">Certifications</h2>
       {certificationData.map((info, index) => (
         <section key={index}>

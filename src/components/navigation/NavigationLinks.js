@@ -2,15 +2,15 @@ import { NavLink } from "react-router-dom";
 import ScrollToTop from "../../helpers/ScrollToTop";
 
 const activeNavLink = ({ isActive }) =>
-  "gray-text nav-link" + (isActive ? " active" : "");
+  "gray-text navigation__link" + (isActive ? " active" : "");
 
-const NavigationMenu = (props) => {
+const NavigationLinks = (props) => {
   return (
-    <section className="menu-links">
+    <section className="navigation__links">
       <NavLink
         to="/"
         className={({ isActive }) =>
-          "gray-text nav-link" + (isActive ? " main-active" : "")
+          "gray-text navigation__link" + (isActive ? " main-active" : "")
         }
         onClick={() => {
           ScrollToTop();
@@ -53,4 +53,4 @@ const NavigationMenu = (props) => {
   );
 };
 
-export default NavigationMenu;
+export default NavigationLinks;

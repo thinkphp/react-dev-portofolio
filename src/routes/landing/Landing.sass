@@ -1,7 +1,7 @@
 @use  "../../core-ui/_base"
 
 //MAIN PAGE
-.main-page
+.landing
     display: flex
     flex-direction: column
     gap: 2rem
@@ -11,10 +11,11 @@
         margin-top: 2%
 
 //HEADER
-.header
-    padding: 1.5rem
+.landing__hero
+    padding: 1rem
     display: flex
     flex-direction: column
+    overflow-x: hidden
     h1
         font-size: 3.8rem
         letter-spacing: 1px
@@ -39,12 +40,13 @@
         transition: all 0.4s ease
 
     @media (min-width: base.$sm-width)
+        padding: 1.5rem
         h1
             font-size: 5rem
-        p
-            font-size: 1.5rem
-        a
-            font-size: 1.5rem
+            p
+                font-size: 1.5rem
+            a
+                font-size: 1.5rem
     @media (min-width: base.$xl-width)
         h1
             font-size: 6rem

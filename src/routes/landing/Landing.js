@@ -1,5 +1,5 @@
 import AboutPreview from "./AboutPreview";
-import HeaderPreview from "./HeaderPreview";
+import HeroPreview from "./HeroPreview";
 import PortfolioPreview from "./PortfolioPreview";
 import ContactPreview from "./ContactPreview";
 import { Footer } from "../../components";
@@ -13,14 +13,14 @@ const Mainpage = () => {
     window.scrollTo(0, 0);
   })
   return (
-    <article className="main-page">
-      <HeaderPreview />
+    <main className="landing">
+      <HeroPreview />
       <AboutPreview />
       <PortfolioPreview />
       <ContactPreview />
       <ScrollButton />
       <Footer />
-    </article>
+    </main>
   );
 };
 

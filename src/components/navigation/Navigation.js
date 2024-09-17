@@ -2,7 +2,7 @@ import Whiteham from "../../assets/images/hamburger-white.png";
 import WhiteXham from "../../assets/images/x-ham-white.png";
 import NavigationHamburger from "./NavigationHamburger";
 import NavigationLogo from "./NavigationLogo";
-import NavigationMenu from "./NavigationMenu";
+import NavigationLinks from "./NavigationLinks";
 import NavigationSocials from "./NavigationSocials";
 import { useState } from "react";
 import React from "react";
@@ -20,11 +20,11 @@ const Navigation = () => {
     setHiddenMenu(true) || (ref.current.src = Whiteham);
   }
   return (
-    <article className="side-menu">
+    <article className="navigation">
       <NavigationHamburger ToggleMenu={ToggleMenu} ref={ref} />
-      <section className={`main-menu${hiddenMenu ? `` : ` active-menu`}`}>
+      <section className={`navigation__menu${hiddenMenu ? `` : ` active_v`}`}>
         <NavigationLogo closeMenu={closeMenu} />
-        <NavigationMenu closeMenu={closeMenu} />
+        <NavigationLinks closeMenu={closeMenu} />
         <NavigationSocials />
       </section>
     </article>

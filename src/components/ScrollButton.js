@@ -15,12 +15,12 @@ const ScrollButton = () => {
       }
     };
     window.addEventListener("scroll", toggleVisible);
-    return(()=>  window.removeEventListener("scroll", toggleVisible))
-  },[]);
+    return (() => window.removeEventListener("scroll", toggleVisible))
+  }, []);
 
   return (
     <Button
-      className="scroll-button"
+      className="scroll-btn"
       onClick={ScrollToTop}
       style={{ display: visible ? "inline" : "none" }}
     />

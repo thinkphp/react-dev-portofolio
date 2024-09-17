@@ -47,45 +47,42 @@ const ContactForm = () => {
     }
   }
   return (
-    <section className="contact-us-form ">
+    <section>
       {submit ?
         <section className="form-success">
           <h3>Message successfully sent!</h3>
           <p>I will get back to you as soon as possible!</p>
           <button type="button" onClick={() => setSubmit(false)}>Send again</button>
         </section> :
-        <form className="contact-form form-tag" onSubmit={submitForm}>
-          <section className="contact-form-item">
+        <form className="form form-tag" onSubmit={submitForm}>
+          <section>
             <input
               onChange={handleChange}
               value={formValues.fullname}
-              className="fullname-input"
               type="text"
               placeholder="Full name"
               name="fullname"
             />
             <br></br>
-            <label className="fullname-error">{formErrors.fullname}</label>
+            <label>{formErrors.fullname}</label>
           </section>
-          <section className="contact-form-item">
+          <section>
             <input onChange={handleChange}
-              value={formValues.email} name="email" className="email-input" type="text" placeholder="Email" />
+              value={formValues.email} name="email" type="text" placeholder="Email" />
             <br></br>
-            <label className="email-error">{formErrors.email}</label>
+            <label>{formErrors.email}</label>
           </section>
-          <section className="contact-form-item">
+          <section>
             <textarea
               onChange={handleChange}
-              value={formValues.message} name="message" className="textarea-input" placeholder="Message" />
+              value={formValues.message} name="message" placeholder="Message" />
             <br></br>
-            <label className="textarea-error">{formErrors.message}</label>
+            <label>{formErrors.message}</label>
           </section>
-          <section className="contact-form-item">
-            <button type="submit">
-              Send
-            </button>
-            <br></br>
-          </section>
+          <button type="submit">
+            Send
+          </button>
+          <br></br>
         </form>}
     </section>
   );

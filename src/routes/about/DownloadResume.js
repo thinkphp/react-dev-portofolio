@@ -8,7 +8,6 @@ const DownloadResume = () => {
         <img
           src={DownloadIcon}
           alt="Resume download button"
-          className="download-img"
         />
         Download Resume
       </a>

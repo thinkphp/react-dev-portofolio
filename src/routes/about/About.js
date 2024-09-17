@@ -3,10 +3,10 @@ import Certifications from "./Certifications.js";
 import Languages from "./Languages.js";
 import Stack from "./Stack.js";
 import Education from "./Education.js";
-import WorkExperience from "./WorkExperience.js";
+import Experience from "./Experience.js";
 import DownloadResume from "./DownloadResume.js";
 import AboutMe from "./AboutMe.js";
-import ScrollButton from "../../helpers/ScrollToTop";
+import ScrollButton from "../../helpers/ScrollToTop.js";
 import { useEffect } from "react";
 import "./About.sass";
 
@@ -16,18 +16,18 @@ const About = () => {
     window.scrollTo(0, 0);
   })
   return (
-    <article className="about-main">
+    <main className="about">
       <AboutMe />
       <Stack />
       <DownloadResume />
-      <WorkExperience />
+      <Experience />
       <Education />
       <Languages />
       <DownloadResume />
       <Certifications />
       <ScrollButton />
       <Footer />
-    </article>
+    </main>
   );
 };
 

@@ -4,23 +4,23 @@ import { projectsData } from "../../data/projectsData";
 
 const ProjectsPreview = () => {
   return (
-    <section className=" portfolio-grid">
+    <section className="projects-grid">
       {projectsData.map((project, index) => (
-        <section key={index} className="project">
+        <section key={index} className="projects-grid__project">
           <img
             src={project.img}
             alt=""
             aria-hidden="true"
-            className="project-img"
+            className="projects-grid__cover"
           />
-          <section className="project-description">
+          <section className="projects-grid__description">
             <p className="white-text p-tag">{project.description}</p>
-            <section className="project-meta-stack ">
+            <section className="projects-grid__stack">
               {project.stack.map((stackName, index) => (
                 <p key={index}>{stackName}</p>
               ))}
             </section>
-            <section className="project-links">
+            <section className="projects-grid__links">
               <a href={project.src} target="_blank" rel="noreferrer">
                 <img src={ExternalLink} alt="Link to project" />
               </a>

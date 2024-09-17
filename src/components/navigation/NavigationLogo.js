@@ -6,13 +6,13 @@ const NavigationLogo = (props) => {
   return (
     <NavLink
       to="/"
-      className="logo-section"
+      className="navigation__logo"
       onClick={() => {
         ScrollToTop();
         props.closeMenu();
       }}
     >
-      <img src={IconBlack} alt="logo"></img>
+      <img src={IconBlack} alt="" aria-hidden="true"></img>
     </NavLink>
   );
 };

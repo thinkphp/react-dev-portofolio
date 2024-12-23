@@ -1,3 +1,5 @@
+import "./About.sass";
+import { useEffect, React } from "react";
 import { Footer } from "../../components/index.js";
 import Certifications from "./Certifications.js";
 import Languages from "./Languages.js";
@@ -7,8 +9,6 @@ import Experience from "./Experience.js";
 import DownloadResume from "./DownloadResume.js";
 import AboutMe from "./AboutMe.js";
 import ScrollButton from "../../helpers/ScrollToTop.js";
-import { useEffect } from "react";
-import "./About.sass";
 
 const About = () => {
   useEffect(() => {

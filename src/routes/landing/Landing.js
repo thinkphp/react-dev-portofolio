@@ -4,7 +4,7 @@ import PortfolioPreview from "./PortfolioPreview";
 import ContactPreview from "./ContactPreview";
 import { Footer } from "../../components";
 import ScrollButton from "../../components/ScrollButton";
-import { useEffect } from "react";
+import { useEffect, React } from "react";
 import "./Landing.sass";
 
 const Mainpage = () => {

@@ -1,6 +1,7 @@
 import ExternalLink from "../../assets/images/project-external.png";
 import GithubRepo from "../../assets/images/project-source.png";
 import { projectsData } from "../../data/projectsData";
+import { React } from 'react';
 
 const Projects = () => {
   return (
@@ -21,10 +22,10 @@ const Projects = () => {
               ))}
             </section>
             <section className="projects-grid__links">
-              <a href={project.src} target="_blank" rel="noreferrer">
+              <a href={project.src} target="_blank" rel="noopener noreferrer">
                 <img src={ExternalLink} alt="Link to project" />
               </a>
-              <a href={project.source} target="_blank" rel="noreferrer">
+              <a href={project.source} target="_blank" rel="noopener noreferrer">
                 <img src={GithubRepo} alt="Link to Github" />
               </a>
             </section>

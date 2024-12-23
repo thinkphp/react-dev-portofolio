@@ -1,3 +1,4 @@
+import { React } from 'react'
 const stack = [
   "HTML5",
   "CSS3",

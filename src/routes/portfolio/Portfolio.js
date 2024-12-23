@@ -2,7 +2,7 @@ import Projects from "./Projects";
 import Footer from "../../components/footer/Footer";
 import PortfolioDescription from "./PortfolioDescription";
 import ScrollButton from "../../components/ScrollButton";
-import { useEffect } from "react";
+import { useEffect, React } from "react";
 import "./Portfolio.sass";
 const Portfolio = () => {
   useEffect(() => {

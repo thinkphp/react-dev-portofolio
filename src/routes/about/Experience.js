@@ -1,4 +1,5 @@
 import { experienceData } from "../../data/experienceData";
+import { React } from 'react';
 
 const Experience = () => {
   return (

@@ -1,5 +1,6 @@
 import DownloadIcon from "../../assets/images/download-icon.png";
 import Resume from "../../assets/documents/Sophia-Martinez.pdf";
+import { React } from 'react';
 
 const DownloadResume = () => {
   return (

@@ -1,3 +1,5 @@
+import { React } from 'react';
+
 const Languages = () => {
   return (
     <section className="about__languages">

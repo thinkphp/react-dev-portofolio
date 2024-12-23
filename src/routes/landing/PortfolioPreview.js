@@ -1,4 +1,5 @@
 import ProjectsPreview from "./ProjectsPreview";
+import { React } from 'react';
 
 const PortfolioPreview = () => {
   return (
@@ -12,7 +13,7 @@ const PortfolioPreview = () => {
               href="https://github.com/catherineisonline?tab=repositories"
               className="pink-text"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               GitHub
             </a>

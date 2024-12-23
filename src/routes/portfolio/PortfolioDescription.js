@@ -1,3 +1,5 @@
+import { React } from 'react';
+
 const PortfolioDescription = () => {
   return (
     <section className="portfolio-content">
@@ -9,7 +11,7 @@ const PortfolioDescription = () => {
             href="https://github.com/catherineisonline?tab=repositories"
             className="pink-text"
             target="_blank"
-            rel="noreferrer">
+            rel="noopener noreferrer">
             GitHub
           </a>
         </span>

@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, React } from "react";
 import { Footer } from "../../components";
 import ContactForm from "./ContactForm";
 import "./Contact.sass";

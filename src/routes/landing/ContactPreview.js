@@ -1,4 +1,5 @@
 import ContactForm from "../contact/ContactForm";
+import { React } from 'react';
 
 const ContactPreview = () => {
   return (

@@ -11,6 +11,7 @@ const App = () => {
       <Navigation />
       <Routes>
         <Route path="/" element={<Landing />} />
+        <Route path="/react-dev-portofolio" element={<Landing />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />

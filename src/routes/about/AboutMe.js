@@ -5,7 +5,12 @@ const AboutMe = () => {
     <section>
       <h2 className="title-font pink-text h2-tag">About Me</h2>
       <p className="white-text p-tag">
-        Transitioning from a rich 9-year background in marketing, I'm embarking on an exciting journey as a Junior Web Developer. My diverse experience has armed me with a unique perspective that blends creativity, strategic thinking, and a deep understanding of user behavior. As a passionate newcomer to the world of web development, I've harnessed my drive and determination to master the latest technologies. Through dedicated learning and hands-on projects, I've become adept at crafting seamless and engaging web experiences. My toolkit includes HTML, CSS, and JavaScript, and I'm well-versed in utilizing frameworks like React to bring dynamic functionalities to life. What sets me apart is not only my technical aptitude but also my marketing-honed intuition. I have an innate grasp of how design and functionality converge to create meaningful user journeys. By leveraging my marketing background, I'm able to create websites that not only look stunning but also strategically drive engagement and conversions.
+      
+      I am a highly skilled Front End / Back End Developer coupled with a keen enthusiasm for Design Patterns, learning and using new technologies. I have a passion for breaking down complex technical concepts and presenting them in an understandable format to various audiences. My interests lie at the intersection of algorithm design techniques and optimization, where I am passionate about developing efficient solutions to complex computational problems. I'm Interested in design and implementation of programming languages , theory of computation (formal language theory, computability, classic and unconventional models of computation), Big Data, Distributed Processing, Data Mining, Learning from large DataSets, Advanced Topics in Machine Learning, Deep Learning, IaaS, PaaS, SaaS, functional programming, Natural Language Processing (parsing, mathematical developments and applications, pattern interpretation, tree-controlled grammars), statistics, Startups. I always prefer to write tests for my code and use tools to automate development process. I believe that Open Source improves life of all developers, so I create some open source projects at GitHub. 
+
+Programming Languages: 
+ C, C++, Rust, Scala, Java, Python3 (Data Science libraries such as NumPy, Pandas, Matplotlib, and scikit- learn), Ruby, Go, PHP, Kotlin on Android, HTML5, CSS3, JavaScript, TypeScript, Haskell, LISP, Prolog, R for Statistics and Machine Learning AI.
+ 
       </p>
     </section>
   );

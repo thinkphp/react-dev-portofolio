@@ -7,10 +7,10 @@ const Footer = () => {
   return (
     <article className="footer">
       <a
-        href="https://github.com/catherineisonline/"
+        href="https://github.com/thinkphp/"
         target="_blank"
         rel="noopener noreferrer">
-        Designed & Built by Sophia &copy;2023 - {currentYear}
+        Adrian Statescu &copy;2024 - {currentYear}
       </a>
     </article>
   );

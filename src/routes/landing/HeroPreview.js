@@ -6,10 +6,10 @@ const HeroPreview = () => {
     <article className="landing__hero">
       <h1 className="hero-font white-text h1-tag">
         Hi, I'm <br></br>
-        <em className="pink-text">Sophia Martinez</em>
-        <br></br>web developer
+        <em className="pink-text">Adrian Statescu</em>
+        <br></br>Software Ingineer
       </h1>
-      <p className="gray-text p-tag">Front End Development</p>
+      <p className="gray-text p-tag">Back End Development</p>
       <Link className="pink-text" to="/portfolio">
         Check my work
       </Link>

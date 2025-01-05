@@ -17,10 +17,10 @@
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1"
   },
-  "homepage": "http://thinkphp.github.io/react-dev-portofolio",
+  "homepage": "/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",        
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
